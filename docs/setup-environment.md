@@ -4,7 +4,7 @@ title: 🛠️ Setup Environment
 description: Step-by-step guide to set up a local Odoo development environment, including Python, PostgreSQL, dependencies, and configuration setup.
 keywords: [setup-environment, odoo, development, installation, dev-environment]
 sidebar_position: 0.1
-slug: /setup-environment
+slug: setup-environment
 ---
 
 We are using Ubuntu as a default, so all step below is base on Ubuntu.

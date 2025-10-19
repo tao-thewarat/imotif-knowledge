@@ -14,17 +14,17 @@ These include **Odoo ERP**, **Logistics Management**, **eCommerce**, and other i
 
 ---
 
-## Purpose of This Documentation
+## What This Guide Covers
 
-This documentation is created to help developers understand IMOTIF’s development standards, workflows, and environment setup.  
-It covers everything from installing dependencies to committing code and deploying to production.
+This documentation is designed to help developers quickly understand IMOTIF’s development standards and workflows.  
+It includes everything you need to get started — from environment setup to code deployment.
 
-**In this documentation you will find:**
-- Environment setup for Odoo development  
-- Guides for Python, PostgreSQL, and Docker  
+**You’ll learn about:**
+- Odoo environment setup and configuration  
+- Using Python, PostgreSQL, and Docker effectively  
 - Commit message structure and Git workflow  
-- Code structure and module development guidelines  
-- Debugging, testing, and deployment processes  
+- Coding conventions and module development practices  
+- Debugging, testing, and deployment workflows
 
 ---
 
@@ -41,11 +41,12 @@ The IMOTIF team follows the principles of **Clean Code**, **Collaboration**, and
 
 ## Getting Started
 
-Start here: [Setup Environment](/setup-environment)  
+Start here:  
+[Setup Environment](./setup-environment)  
 to learn how to install and configure your local Odoo development environment.
 
 ---
 
 > **Note:**  
 > This documentation is continuously updated to reflect new standards, workflows, and tools used by the IMOTIF development team.  
-> If you find any issues or have suggestions, please open an issue in the `imotif-dev-docs` repository.
+> If you find any issues or have suggestions, please open an issue in the [imotif-knowledge repository](https://github.com/tao-thewarat/imotif-knowledge).
