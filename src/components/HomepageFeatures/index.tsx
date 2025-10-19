@@ -1,6 +1,11 @@
 import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
+
+import MountainSvg from '@site/static/img/undraw_docusaurus_mountain.svg';
+import TreeSvg from '@site/static/img/undraw_docusaurus_tree.svg';
+import ReactSvg from '@site/static/img/undraw_docusaurus_react.svg';
+
 import styles from './styles.module.css';
 
 type FeatureItem = {
@@ -12,7 +17,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: MountainSvg,
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -22,7 +27,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: TreeSvg,
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -32,7 +37,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: ReactSvg,
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
