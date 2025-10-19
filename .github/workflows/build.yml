@@ -31,5 +31,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/imotif-docs:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/imotif-docs:${{ github.run_number }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/knowledge:${{ github.run_number }}
